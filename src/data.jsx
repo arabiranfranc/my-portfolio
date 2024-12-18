@@ -2,6 +2,7 @@ import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import store from "./assets/nextjsstore.png";
 import sulok from "./assets/sulok.png";
+import jobify from "./assets/jobify.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -47,6 +48,14 @@ export const projects = [
     github: "https://github.com/arabiranfranc",
     title: "Coffee Menu",
     text: "Web based coffee menu with QR code",
+  },
+  {
+    id: nanoid(),
+    img: jobify,
+    url: "https://jobify-coral.vercel.app/",
+    github: "https://github.com/arabiranfranc",
+    title: "Jobify",
+    text: "Next JS Job Tracking",
   },
 ];
 
